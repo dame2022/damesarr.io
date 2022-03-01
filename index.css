@@ -1,0 +1,308 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+	list-style: none;
+}
+.navbar{
+	background-color:yellow;
+	position: fixed;
+	width: 100%;
+    font-family: cursive;
+    padding:5px;
+    z-index: 200;
+}
+.navbar .max-width{
+	width:900px;
+	margin : auto;
+	padding: 0 80px;
+}
+.navbar .max-width{
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.navbar .logo a {
+	margin: 0px;
+	padding: 20px;
+	font-size: 35px;
+	font-weight: 600;
+	color: white;
+}
+.navbar .logo span{
+	color: black;
+}
+.navbar .menu li{
+	display: inline-block;
+	padding:10px;
+}
+.navbar .menu a{
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+	color: black;
+    font-size: 30px;
+}
+/****************************************************************************************************/
+.home{
+    height: 800px;
+    background-image:url(vignette.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex ;
+}
+.home .max-width{
+    color: white;
+    font-family: cursive;
+    margin: auto 90px;
+}
+.home .text-1{
+   font-weight: 600;
+   font-size:40px ; 
+}
+.home .text-2{
+    font-size: 40px;
+    font-weight: 600;
+    color: yellow;
+}
+.home .text-3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.home .max-width .boutton{
+    font-size: 40px;
+    font-weight: 200;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: white;
+    background-color: yellow;
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.home .text-3 .Inf{
+    color: yellow;
+}
+.home .max-width .boutton:hover{
+    background: none;
+}
+
+/****************************************************************************************************/
+.about .title{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    text-decoration: underline yellow;
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .left{
+    width: 45%;
+}
+.about .left img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.about .right{
+    width: 55%;
+}
+.text1{
+    font-size: 35px;
+    font-weight:  400px; ;
+    display: inline;
+}
+.rel{
+    color: yellow;
+}
+.lorem{
+    text-align: justify;
+    font-size: 20px;
+}
+.download{
+    font-size: 40px;
+    font-weight: 200;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: white;
+    background-color: yellow;
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.download:hover{
+    background: none;
+    color: yellow;
+}
+.about{
+    padding: 50px 150px;
+}
+
+/***************************************************************************************************************************************************************/
+
+.propos .max-width{
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.tout{
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+}
+.title2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    text-decoration: underline yellow;
+    color: black;
+    padding-top: px;
+}
+.propos .lorem{
+        text-align: justify;
+        font-size: 20px;
+        width: 30%;
+        height: 180px;
+        background-color: grey;
+        border-radius: 10px;
+        
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.tab1{
+    background-color: gray;
+    width: 30%;
+    width: 200px;
+    height: 50px;
+    padding: 20px 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.des{
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    
+}
+
+/***************************************************************************************************************************************************/
+
+.title3{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding-top: 0px;
+    text-decoration: ;
+}
+.my{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.tof img{
+    border: 3px solid yellow;
+    border-radius: 50px;
+}
+.lor{
+    text-align: center;
+    font-size: 20px;
+}
+.tbl{
+    background-color: gray;
+    width: 300px;
+    height:250px;
+    color: white;
+    font-family: cursive;
+    padding:20px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.win{
+    font-size: 15px;
+    position: relative;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+    padding-top: 0px;
+    text-decoration: underline 3px yellow ;
+}
+
+/***************************************************************************************************************************************************/
+.title4{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    
+}
+.git{
+    font-size: 15px;
+    position: relative;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+    padding-top: 0px;
+    text-decoration: underline 3px yellow ;
+}
+.bas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gauche{
+    font-family: cursive;
+    width: 30%;
+}
+.mileu{
+    font-family: cursive;
+    padding-bottom: 50px;
+}
+.input{
+    height: 10px;
+}
+.title5{
+    font-family: cursive;
+}
+.hold{
+ color: gray;
+}
